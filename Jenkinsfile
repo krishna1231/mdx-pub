@@ -14,6 +14,7 @@ pipeline {
             steps {
                 echo "${params.Db_Name} created!"
                 echo "${params.target_env} Env Selected"
+                echo "this line will only appear in idwh-migration branch"
             }
 
         }
